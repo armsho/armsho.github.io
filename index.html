@@ -1,4 +1,5 @@
 <html>
+  <head>
   <meta charset="UTF-8">
   <title>Arman Shokrollahi's Homepage | AI & Machine Learning</title>
   <meta name="description" content="Academic website focused on research 
@@ -11,12 +12,70 @@
     cognitive science, cs, olympiad, cmu, virginia, mit, harvard, texas, max planck, 
     stanford, google, toronto, mathematics, sharif, computer">
   <meta name="author" content="Arman Shokrollahi">
-  <meta name="google-site-verification" content="-U9rN-sStVzXu-VhpNQWtOAPHQlBW88PHGYvxT6qb4s" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <body>
-    Hi. <br/>
-    
-    Please feel free to explore <a href="https://asho.us/">
-      my academic profile</a> for further information.
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center p-4 sm:p-8">
+
+    <!-- Profile Card Container -->
+    <div class="w-full max-w-2xl bg-white shadow-2xl rounded-xl p-6 sm:p-10 transition-all duration-300">
+
+        <!-- Header and Photo Section -->
+        <header class="text-center space-y-4">
+            <!-- Photo Placeholder -->
+            <div class="flex justify-center">
+                <!-- Replace the URL below with your actual photo URL -->
+                <img src="https://placehold.co/150x150/4f46e5/ffffff?text=Your+Photo"
+                     alt="Profile Picture Placeholder"
+                     onerror="this.onerror=null;this.src='https://placehold.co/150x150/4f46e5/ffffff?text=Photo';"
+                     class="w-36 h-36 rounded-full border-4 border-indigo-500 shadow-lg object-cover">
+            </div>
+
+            <!-- Greeting -->
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-800 pt-4">
+                Hi.
+            </h1>
+            <!-- Added Name -->
+            <h2 class="text-xl sm:text-2xl font-semibold text-indigo-600 -mt-2">
+                Arman Shokrollahi
+            </h2>
+        </header>
+
+        <!-- Content Section -->
+        <section class="mt-8">
+            <div class="text-center space-y-4">
+                <p class="text-lg sm:text-xl text-gray-600 leading-relaxed">
+                    Please feel free to explore my academic profile for further information.
+                </p>
+                
+                <!-- Placeholder Button/Link for 'Explore' -->
+                <div class="pt-4">
+                    <!-- You would replace '#' with the actual link to your full profile/CV -->
+                    <a href="#"
+                       class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-lg shadow-md text-white bg-indigo-600 hover:bg-indigo-700 transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                        Explore Full Profile &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer/Contact Placeholder (Responsive) -->
+        <footer class="mt-10 pt-6 border-t border-gray-100 text-center">
+            <p class="text-sm text-gray-400">
+                &copy; 2025 Arman Shokrollahi. All rights reserved.
+            </p>
+        </footer>
+    </div>
+
+</body>
 </html>
+
